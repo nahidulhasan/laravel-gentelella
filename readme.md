@@ -12,5 +12,7 @@ Run ```docker-compose up -d```
 
 - ```Composer update```
 
+```php artisan key:generate```
+
 
 
