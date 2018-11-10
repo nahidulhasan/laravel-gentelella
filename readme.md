@@ -10,5 +10,7 @@ Please Follow the instructions.
 
 Run ```docker-compose up -d```
 
+- ```Composer update```
+
 
 
