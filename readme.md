@@ -8,5 +8,7 @@ Please Follow the instructions.
 - Create env file
 - Run ``npm install``
 
+Run ```docker-compose up -d```
+
 
 
