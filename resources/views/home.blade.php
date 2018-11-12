@@ -1,6 +1,7 @@
 @extends('admin.layouts.admin')
 
-@section('title', 'Hermes | Welcome Home')
+@section('title', ' Gentelella| Welcome Home')
+
 
 @section('content')
 
