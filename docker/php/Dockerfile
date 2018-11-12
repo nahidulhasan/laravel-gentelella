@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install zlib1g-dev -y \
         libpng-dev \
         supervisor \
         git zip \
-    && docker-php-ext-install -j$(nproc) mcrypt bcmath\
+    && docker-php-ext-install -j$(nproc) mcrypt \
     && docker-php-ext-install -j$(nproc) pdo \
     && docker-php-ext-install -j$(nproc) pdo_mysql \
     && docker-php-ext-install -j$(nproc) gd
