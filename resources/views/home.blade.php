@@ -1,56 +1,23 @@
-@extends('admin.layouts.admin')
-
-@section('title', 'Hermes | Welcome Home')
+@extends('layouts.app')
 
 @section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Dashboard</div>
 
-    {{--<div class="row">--}}
-    {{--<div class="col-md-12 col-sm-12 col-xs-12">--}}
+                <div class="card-body">
+                    @if (session('status'))
+                        <div class="alert alert-success" role="alert">
+                            {{ session('status') }}
+                        </div>
+                    @endif
 
-
-    {{--<div class="col-md-8">--}}
-    {{--<div class="card">--}}
-    {{--<div class="card-header">Dashboard</div>--}}
-
-    {{--<div class="card-body">--}}
-    {{--@if (session('status'))--}}
-    {{--<div class="alert alert-success" role="alert">--}}
-    {{--{{ session('status') }}--}}
-    {{--</div>--}}
-    {{--@endif--}}
-
-    {{--You are logged in!--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--</div>--}}
-
-
-    {{--@include('admin.sections.top')--}}
-    <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-            <div id="log_activity" class="dashboard_graph">
-                Welcome To Dashboard
-
+                    You are logged in!
+                </div>
             </div>
-            <br/>
         </div>
     </div>
-
-
-    <div class="row">
-
-    </div>
+</div>
 @endsection
-
-
-{{--@section('scripts')
-    @parent
-    {{ Html::script(mix('assets/admin/js/dashboard.js')) }}
-@endsection
-
-@section('styles')
-    @parent
-    {{ Html::style(mix('assets/admin/css/dashboard.css')) }}
-@endsection--}}
