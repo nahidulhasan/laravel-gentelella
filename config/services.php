@@ -17,7 +17,6 @@ return [
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
-        'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
     ],
 
     'ses' => [
@@ -31,19 +30,9 @@ return [
     ],
 
     'stripe' => [
-        'model' => App\User::class,
+        'model' => App\Models\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
-        'webhook' => [
-            'secret' => env('STRIPE_WEBHOOK_SECRET'),
-            'tolerance' => env('STRIPE_WEBHOOK_TOLERANCE', 300),
-        ],
-    ],
-
-    'google' => [
-        'client_id' => env('GOOGLE_CLIENT_ID','490644365438-ori9sd8vkgg6rqc2b1v1knqnt8p0gedg.apps.googleusercontent.com'),         // Your GitHub Client ID
-        'client_secret' => env('GOOGLE_CLIENT_SECRET','DkiPHMOGUtuVJco8KOjqztyx'), // Your GitHub Client Secret
-        'redirect' => env('GOOGLE_REDIRECT','http://localhost:8000/callback'),
     ],
 
 ];
