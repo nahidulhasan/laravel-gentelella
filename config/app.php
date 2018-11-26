@@ -161,8 +161,6 @@ return [
         App\Providers\RouteServiceProvider::class,
 
 
-        Nahid\Permit\PermitServiceProvider::class,
-
     ],
 
     /*

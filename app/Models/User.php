@@ -4,11 +4,10 @@ namespace App\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Nahid\Permit\Users\Permitable as Permit;
 
 class User extends Authenticatable
 {
-    use Notifiable,Permit;
+    use Notifiable;
 
 
     /**

@@ -32,25 +32,18 @@ class UserController extends Controller
 
     public function index(Request $request) {
 
-        allows(get_auth_user(), 'user.view');
-
         $users = $this->userService->getAllUsers($request);
         return view('user.list', compact('users'));
 
     }
 
     public function create(Request $request) {
-        allows(get_auth_user(), 'user.create');
-
-        $roles = Permit::roles();
-        $abilities = Permit::getAbilities();
 
         return view('user.add', compact('abilities','roles'));
     }
 
 
     public function save(UserCreateRequest $request) {
-        allows(get_auth_user(), 'user.create');
 
         $user = $this->userService->addNewUser($request->toArray());//$request->only()
 
@@ -67,17 +60,10 @@ class UserController extends Controller
     public function getRoles(Request $request) {
 
 
-        allows( get_auth_user(), ['role.create', 'role.update', 'role.view']);
-
-        $roles = Permit::roles();
-        $abilities = Permit::getAbilities();
-
         return view('user.roles', compact('roles', 'abilities'));
     }
 
     public function updateRole(RoleRequest $request) {
-
-        allows(get_auth_user(), 'role.update');
 
         $role_name = $request->input('role_name');
         $permissions = array_value_convert($request->input('permissions'), "1", true);
@@ -116,8 +102,6 @@ class UserController extends Controller
     }
 
     public function storeRole(RoleRequest $request) {
-
-        allows(get_auth_user(), 'role.create');
 
         $role_name = $request->input('role_name');
         $permissions = array_value_convert($request->input('permissions'), "1", true);

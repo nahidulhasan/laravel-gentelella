@@ -84,45 +84,11 @@
                     </div>
 
 
-
+                    @csrf
                     <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="role">Role</label>
-                        <div class="col-md-9 col-sm-9 col-xs-12">
-                            <select class="form-control" required="required" name="type" id="role">
-                                <option value="">Select Role</option>
-                                @foreach($roles as $role)
-                                    <option value="{{$role->id}}">{{ucfirst($role->role_name)}}</option>
-                                @endforeach
-                            </select>
+                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
 
-                            @if($errors->has('role'))
-                                <span class="text-danger">{!! $errors->first('role') !!}</span>
-                            @endif
-                        </div>
-                    </div>
-
-                    <div id="abilities-block" class="hidden">
-
-                        <div class="col-sm-12 col-xs-12">
-                            <h3>Permissions</h3>
-                        </div>
-                        @foreach($abilities as $module => $permissions)
-                            <div class="col-sm-6 col-xs-12">
-                                @component('user.abilities', ['permissions' => $permissions, 'disabled' => true])
-                                    @slot("_module")
-                                        {{$module}}
-                                    @endslot
-                                @endcomponent
-                            </div>
-                        @endforeach
-
-                        @csrf
-                        <div class="form-group">
-                            <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
-                                <input type="hidden" name="zone_id" value="1">
-                                <input type="hidden" name="area_id" value="1">
-                                <button type="submit" class="btn btn-success">Create User</button>
-                            </div>
+                            <button type="submit" class="btn btn-success">Create User</button>
                         </div>
                     </div>
 

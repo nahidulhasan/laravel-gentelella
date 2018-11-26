@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1593bb9d9439ccfd867360255ff141bf",
+    "content-hash": "59014a3fe4036391f40e7b7c16f8da71",
     "packages": [
         {
             "name": "arcanedev/log-viewer",
@@ -1248,112 +1248,6 @@
                 "psr-3"
             ],
             "time": "2017-06-19T01:22:40+00:00"
-        },
-        {
-            "name": "nahid/jsonq",
-            "version": "v5.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nahid/jsonq.git",
-                "reference": "72128f1a337bec2645464aeb42b62c5c76413619"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nahid/jsonq/zipball/72128f1a337bec2645464aeb42b62c5c76413619",
-                "reference": "72128f1a337bec2645464aeb42b62c5c76413619",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "graham-campbell/testbench": "^3.1",
-                "phpunit/phpunit": "^4.8 || ^5.0",
-                "symfony/var-dumper": "^3.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Nahid\\JsonQ\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "CC0-1.0"
-            ],
-            "authors": [
-                {
-                    "name": "Nahid Bin Azhar",
-                    "email": "nahid.dns@gmail.com"
-                }
-            ],
-            "description": "JsonQ is a PHP based json data query library",
-            "homepage": "https://github.com/nahid/jsonq",
-            "keywords": [
-                "json",
-                "jsonq",
-                "query"
-            ],
-            "time": "2018-10-05T18:33:37+00:00"
-        },
-        {
-            "name": "nahid/permit",
-            "version": "v2.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nahid/permit.git",
-                "reference": "1f4d0753a19b6f762630ee650e70ea4c3b7d0f6f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nahid/permit/zipball/1f4d0753a19b6f762630ee650e70ea4c3b7d0f6f",
-                "reference": "1f4d0753a19b6f762630ee650e70ea4c3b7d0f6f",
-                "shasum": ""
-            },
-            "require": {
-                "nahid/jsonq": "^5.0",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Nahid\\Permit\\PermitServiceProvider"
-                    ],
-                    "aliases": {
-                        "Permit": "Nahid\\Permit\\Facades\\Permit"
-                    }
-                }
-            },
-            "autoload": {
-                "classmap": [],
-                "psr-4": {
-                    "Nahid\\Permit\\": "src/"
-                },
-                "files": [
-                    "helpers/permit.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "CC-BY-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Nahid Bin Azhar",
-                    "email": "nahid.dns@gmail.com"
-                }
-            ],
-            "description": "Permit is a laravel ACL and authorization package",
-            "keywords": [
-                "acl",
-                "authorization",
-                "permit"
-            ],
-            "time": "2018-07-22T19:05:25+00:00"
         },
         {
             "name": "nesbot/carbon",

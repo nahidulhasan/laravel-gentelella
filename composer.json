@@ -12,7 +12,6 @@
         "arcanedev/log-viewer": "~4.6.0",
         "davejamesmiller/laravel-breadcrumbs": "^5.1.0",
         "laravelcollective/html": "^5.4.0",
-        "nahid/permit": "^2.1.2",
         "pda/pheanstalk": "^3.1",
         "guzzlehttp/guzzle": "^6.3"
     },

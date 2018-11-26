@@ -44,8 +44,6 @@ class UserRepository extends BaseRepository
         unset($data['_token']);
         unset($data['password_confirmation']);
         $data['password'] = \Hash::make($data['password']);
-        $data['type'] = Permission::where('id',$data['type'])->first()->role_name;
-        $data['status'] = 1;
 
         return $this->model->insertGetId($data);
     }
