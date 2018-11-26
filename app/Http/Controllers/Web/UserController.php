@@ -39,7 +39,7 @@ class UserController extends Controller
 
     public function create(Request $request) {
 
-        return view('user.add', compact('abilities','roles'));
+        return view('user.add');
     }
 
 
@@ -51,9 +51,7 @@ class UserController extends Controller
             return $this->respond("Unable to create user", 'error', 422);
         }
 
-        //event(new ActivityLogEvent('user:create', $user, ['payload' => $request->all()]));
         return redirect(route('admin.users'))->with(['success' => "User created successfully!"]);
-        //return $this->respond("User created successfully!");
 
     }
 
