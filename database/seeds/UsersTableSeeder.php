@@ -14,18 +14,15 @@ class UsersTableSeeder extends Seeder
         $users = [[
             'name' => 'Nahidul Hasan',
             'email' => 'nahidul@gmail.com',
-            'password' => '123456',
-            'type' => 'super_admin'
+            'password' => '123456'
         ], [
             'name' => 'Mahmudul Hasan',
             'email' => 'Mahmudul@gmail.com',
-            'password' => '123456',
-            'type' => 'super_admin'
+            'password' => '123456'
         ], [
             'name' => 'Nafis Rahman',
             'email' => 'nafis@gmail.com',
-            'password' => '123456',
-            'type' => 'super_admin'
+            'password' => '123456'
         ]];
 
         foreach ($users AS $user) {

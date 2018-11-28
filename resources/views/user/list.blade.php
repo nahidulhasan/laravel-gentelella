@@ -28,7 +28,6 @@
                             <th>Name</th>
                             <th>Email</th>
                             <th>Phone</th>
-                            <th>Role</th>
                             {{--<th>Actions</th>--}}
                         </tr>
                         </thead>
@@ -39,7 +38,6 @@
                                 <th scope="row"> {{ $user->name }}</th>
                                 <td>{{ $user->email }}</td>
                                 <td>{{ $user->number }}</td>
-                                <td>{{ $user->type }}</td>
                                 {{--<td>--}}
                                     {{--@if($user->status == 1)--}}
                                     {{--<a href="#" class="btn bg-danger">Deactivate</a>--}}
