@@ -37,7 +37,7 @@
   "**************************** Exception *********************": "Exception i18n",
   "exception.unauthenticated": "Unauthenticated.",
   "**************************** Login Form ********************": "Login Form i18n",
-  "views.auth.login.header": "Hermes Login",
+  "views.auth.login.header": "Login",
   "views.auth.login.input_0": "E-Mail address",
   "views.auth.login.input_1": "Password",
   "views.auth.login.input_2": "Remember Me",
