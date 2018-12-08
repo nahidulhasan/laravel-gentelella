@@ -19,20 +19,18 @@ Please Follow the instructions.
 
 ```sh
 docker-compose build
-
 ```
 
 
 ```sh
 docker-compose up -d
-
 ```
 
 Now Run Following commands for migration and DB Seed.
 
 ```
 docker-compose exec php php artisan migrate
-
+```
 
 ```
 docker-compose exec php php artisan db:seed
