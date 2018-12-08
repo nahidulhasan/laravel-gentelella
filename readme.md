@@ -6,7 +6,7 @@ Please Follow the instructions.
 
 - Clone the repo
 
-- Create env file
+- Create .env file from copy .env.example 
 
 - Run ``npm install``
 
@@ -14,7 +14,7 @@ Please Follow the instructions.
 
 
 
- Now run the following command from your terminal one by one. Running the commands be sure that you have installed docker.You will get install instructions from this
+ Now run the following command from your terminal one by one. Running the commands be sure that you have installed docker. You will get install instructions from this
  [link](https://docs.docker.com/)
 
 ```sh
