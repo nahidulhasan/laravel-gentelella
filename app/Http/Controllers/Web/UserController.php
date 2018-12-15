@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: pathao
- * Date: 8/28/18
- * Time: 3:52 PM
- */
-
 namespace App\Http\Controllers\Web;
 
 
