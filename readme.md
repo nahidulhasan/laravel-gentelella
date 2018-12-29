@@ -2,6 +2,8 @@
 
 ## Laravel-gentelella
 
+Laravel with Gentelella admin template for developing Laravel applications
+
 Please Follow the instructions.
 
 - Clone the repo
