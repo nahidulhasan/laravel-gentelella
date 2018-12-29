@@ -4,9 +4,10 @@
 
 Laravel with Gentelella admin template for developing Laravel applications
 
-Please Follow the instructions.
+## Quick Start
 
-- Clone the repo
+- Clone this repo or download and extract it somewhere
+- You may delete .git folder if you get this code via git clone
 
 - Create .env file from copy .env.example 
 
