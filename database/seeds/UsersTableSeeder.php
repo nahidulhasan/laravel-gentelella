@@ -20,8 +20,8 @@ class UsersTableSeeder extends Seeder
             'email' => 'Mahmudul@gmail.com',
             'password' => '123456'
         ], [
-            'name' => 'Nafis Rahman',
-            'email' => 'nafis@gmail.com',
+            'name' => 'Rakibul Hasan',
+            'email' => 'rakibul@gmail.com',
             'password' => '123456'
         ]];
 

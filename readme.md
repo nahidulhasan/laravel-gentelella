@@ -10,7 +10,7 @@ Please Follow the instructions.
 
 - Run ``npm install``
 
-- Run ```Composer update```
+- Run ```composer update```
 
 
 
