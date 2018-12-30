@@ -48,7 +48,7 @@ Now browse project
 
 Login:
 
-![alt text](https://github.com/nahidulhasan/laravel-gentelella/blob/master/public/images/loginsmall.png "Login")
+![alt text](https://github.com/nahidulhasan/laravel-gentelella/blob/master/public/images/login.png "Login")
 
 
 Dashboard:
