@@ -46,6 +46,18 @@ Now browse project
  http://localhost:8025/
 ```
 
+Login:
+
+![alt text](https://github.com/nahidulhasan/laravel-gentelella/blob/master/public/images/loginsmall.png "Login")
+
+
+Dashboard:
+
+![alt text](https://github.com/nahidulhasan/laravel-gentelella/blob/master/public/images/d1.png "Dashboard")
+
+Add New User:
+
+![alt text](https://github.com/nahidulhasan/laravel-gentelella/blob/master/public/images/d2.png "Dashboard")
 
 
 
